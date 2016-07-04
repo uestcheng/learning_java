@@ -16,7 +16,7 @@ public class Retirement2{
 
         do{
             balance = balance + payment;
-            double interest = balance * interestRate /100;
+            double interest = balance * interestRate / 100;
             balance = balance + interest;
 
             year = year + 1;
